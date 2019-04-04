@@ -1,3 +1,3 @@
 # Weex_Yunqiao
-日常使用Android，及MVP的应用和weex集成在Android使用的一些案例
-如果出现编译运行错误，CleanProject即可
+日常使用Android，及MVP的应用和weex集成在Android使用的一些案例，
+如果安装运行apk出现错误，CleanProject即可
