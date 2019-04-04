@@ -1,4 +1,4 @@
-package com.example.apple.yunqiao_weex;
+package com.example.apple.yunqiao_weex.Activity;
 
 import android.os.Handler;
 import android.os.Message;
@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.apple.yunqiao_weex.R;
 
 /**
  * 对于MVP的理解及使用

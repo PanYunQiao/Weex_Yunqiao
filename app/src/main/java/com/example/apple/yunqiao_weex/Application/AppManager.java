@@ -1,4 +1,4 @@
-package com.example.apple.yunqiao_weex;
+package com.example.apple.yunqiao_weex.Application;
 
 import android.app.Activity;
 import android.app.ActivityManager;

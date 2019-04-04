@@ -1,4 +1,4 @@
-package com.example.apple.yunqiao_weex;
+package com.example.apple.yunqiao_weex.CustomView.CustomAndroidView;
 
 import android.content.Context;
 import android.graphics.Canvas;

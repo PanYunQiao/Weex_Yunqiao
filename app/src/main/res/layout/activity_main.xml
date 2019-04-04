@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.apple.yunqiao_weex.MainActivity">
+    tools:context="com.example.apple.yunqiao_weex.Activity.MainActivity">
     <Button
         android:id="@+id/btn"
         android:text="加载"
@@ -17,7 +17,7 @@
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-    <com.example.apple.yunqiao_weex.CounterView
+    <com.example.apple.yunqiao_weex.CustomView.CustomAndroidView.CounterView
         android:layout_width="match_parent"
         android:layout_height="50dp" />
 </LinearLayout>
