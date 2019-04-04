@@ -1,5 +1,6 @@
 package com.example.apple.yunqiao_weex.Activity;
 
+import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
 
@@ -10,6 +11,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.apple.yunqiao_weex.R;
+import com.example.apple.yunqiao_weex.Weex.WeexEmptyActivity;
 
 /**
  * 对于MVP的理解及使用
@@ -31,7 +33,10 @@ public class MainActivity extends AppCompatActivity implements MVPView{
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                presenter.result();
+//                presenter.result();
+                Intent intent = new Intent(MainActivity.this, WeexEmptyActivity.class);
+                intent.putExtra("URL","index.js");
+                startActivity(intent);
             }
         });
     }

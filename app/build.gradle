@@ -19,7 +19,7 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
     testImplementation 'junit:junit:4.12'
@@ -27,14 +27,14 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-
+    //图片加载框架
+    implementation 'com.squareup.picasso:picasso:2.5.2'
     //Weex依赖
     // weex sdk and fastjson
-    compile 'com.taobao.android:weex_sdk:0.20.0.2@aar'
-    compile 'com.alibaba:fastjson:1.1.46.android'
-
+    implementation 'com.alibaba:fastjson:1.1.46.android'
     //support library dependencies
-    compile 'com.android.support:recyclerview-v7:27.1.1'
-    compile 'com.android.support:support-v4:27.1.1'
-    compile 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:recyclerview-v7:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation project(':weex_sdk')
 }
