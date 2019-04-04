@@ -1,0 +1,260 @@
+[
+    {
+        "outputFile": "/Users/apple/Documents/five_lakes/android/sdk/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "/Users/apple/.android/build-cache/3cb962df3533ff7b09b40db60b21170abd747ab3/output/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 212,
+                        "endColumn": 60,
+                        "endOffset": 268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 116,
+                    "endColumn": 44,
+                    "endOffset": 156
+                },
+                "from": {
+                    "file": "/Users/apple/Documents/five_lakes/android/sdk/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 44,
+                        "endOffset": 96
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 605,
+                    "endColumn": 44,
+                    "endOffset": 645
+                },
+                "from": {
+                    "file": "/Users/apple/.android/build-cache/02a84e20de4d4732ece67413262b603f9b618dc6/output/res/values/values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 387,
+                        "endColumn": 44,
+                        "endOffset": 427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 650,
+                    "endColumn": 42,
+                    "endOffset": 688
+                },
+                "from": {
+                    "file": "/Users/apple/Documents/five_lakes/android/sdk/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1006,
+                        "endColumn": 42,
+                        "endOffset": 1044
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 693,
+                    "endColumn": 69,
+                    "endOffset": 758
+                },
+                "from": {
+                    "file": "/Users/apple/Documents/five_lakes/android/sdk/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1167,
+                        "endColumn": 69,
+                        "endOffset": 1232
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 763,
+                    "endColumn": 39,
+                    "endOffset": 798
+                },
+                "from": {
+                    "file": "/Users/apple/Documents/five_lakes/android/sdk/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 966,
+                        "endColumn": 39,
+                        "endOffset": 1001
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 803,
+                    "endColumn": 55,
+                    "endOffset": 854
+                },
+                "from": {
+                    "file": "/Users/apple/Documents/five_lakes/android/sdk/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1049,
+                        "endColumn": 55,
+                        "endOffset": 1100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 859,
+                    "endColumn": 61,
+                    "endOffset": 916
+                },
+                "from": {
+                    "file": "/Users/apple/Documents/five_lakes/android/sdk/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1105,
+                        "endColumn": 61,
+                        "endOffset": 1162
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 921,
+                    "endColumn": 86,
+                    "endOffset": 1003
+                },
+                "from": {
+                    "file": "/Users/apple/Documents/five_lakes/android/sdk/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 879,
+                        "endColumn": 86,
+                        "endOffset": 961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1008,
+                    "endColumn": 40,
+                    "endOffset": 1044
+                },
+                "from": {
+                    "file": "/Users/apple/Documents/five_lakes/android/sdk/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 838,
+                        "endColumn": 40,
+                        "endOffset": 874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1049,
+                    "endLine": 20,
+                    "endColumn": 12,
+                    "endOffset": 1334
+                },
+                "from": {
+                    "file": "/Users/apple/.android/build-cache/02a84e20de4d4732ece67413262b603f9b618dc6/output/res/values/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 432,
+                        "endLine": 10,
+                        "endColumn": 12,
+                        "endOffset": 717
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1339,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1630
+                },
+                "from": {
+                    "file": "/Users/apple/.android/build-cache/02a84e20de4d4732ece67413262b603f9b618dc6/output/res/values/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 722,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 1013
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1635,
+                    "endLine": 34,
+                    "endColumn": 12,
+                    "endOffset": 1926
+                },
+                "from": {
+                    "file": "/Users/apple/.android/build-cache/02a84e20de4d4732ece67413262b603f9b618dc6/output/res/values/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1018,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 1309
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/apple/Documents/five_lakes/android/sdk/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/overscroll_glow.png",
+        "source": "/Users/apple/.android/build-cache/3cb962df3533ff7b09b40db60b21170abd747ab3/output/res/drawable-xhdpi-v4/overscroll_glow.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/five_lakes/android/sdk/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/overscroll_edge.png",
+        "source": "/Users/apple/.android/build-cache/3cb962df3533ff7b09b40db60b21170abd747ab3/output/res/drawable-xhdpi-v4/overscroll_edge.png"
+    }
+]

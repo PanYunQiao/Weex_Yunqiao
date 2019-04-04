@@ -1,0 +1,8 @@
+<resources>
+    <string name="weex_tip">提示</string>
+    <string name="weex_save_to_local">是否将图片保存到相册？</string>
+    <string name="weex_ok">确定</string>
+    <string name="weex_cancel">取消</string>
+    <string name="weex_save_fail">保存失败！</string>
+    <string name="weex_save_seccess">已保存到相册！</string>
+</resources>

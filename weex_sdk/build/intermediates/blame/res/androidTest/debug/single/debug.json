@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v19_overscroll_glow.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-xhdpi-v19/overscroll_glow.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_overscroll_edge.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-hdpi-v4/overscroll_edge.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_overscroll_glow.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-hdpi-v4/overscroll_glow.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v19_overscroll_edge.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-xhdpi-v19/overscroll_edge.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_overscroll_edge.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-mdpi-v4/overscroll_edge.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v19_overscroll_glow.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-mdpi-v19/overscroll_glow.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/anim_activity_open.xml.flat",
+        "source": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/bundles/debug/res/anim/activity_open.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v19_overscroll_glow.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-xxhdpi-v19/overscroll_glow.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v19_overscroll_edge.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-mdpi-v19/overscroll_edge.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_overscroll_glow.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-mdpi-v4/overscroll_glow.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_overscroll_edge.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-xhdpi-v4/overscroll_edge.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v19_overscroll_edge.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-hdpi-v19/overscroll_edge.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable_error.png.flat",
+        "source": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/bundles/debug/res/drawable/error.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/anim_activity_close.xml.flat",
+        "source": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/bundles/debug/res/anim/activity_close.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v19_overscroll_glow.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-hdpi-v19/overscroll_glow.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_overscroll_glow.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-xhdpi-v4/overscroll_glow.png"
+    },
+    {
+        "merged": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v19_overscroll_edge.png.flat",
+        "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/drawable-xxhdpi-v19/overscroll_edge.png"
+    }
+]

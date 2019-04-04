@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="weexPg_bar">#FF6720</color>
+    <string name="weex_cancel">No</string>
+    <string name="weex_no_pms_place_pass">无文件读写权限!请在设置中允许该权限</string>
+    <string name="weex_ok">Yes</string>
+    <string name="weex_save_fail">Save failed!</string>
+    <string name="weex_save_seccess">Saved to album!</string>
+    <string name="weex_save_to_local">Do you want to save pictures to albums?</string>
+    <string name="weex_tip">Tip</string>
+</resources>

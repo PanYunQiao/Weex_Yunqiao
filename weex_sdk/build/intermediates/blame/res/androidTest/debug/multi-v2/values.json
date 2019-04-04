@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/apple/Documents/YunqiaoWeex/weex_sdk/build/intermediates/bundles/debug/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,100,143,213,253,309,371,458",
+                        "endColumns": "44,42,69,39,55,61,86,40",
+                        "endOffsets": "95,138,208,248,304,366,453,494"
+                    },
+                    "to": {
+                        "startLines": "3,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "116,650,693,763,803,859,921,1008",
+                        "endColumns": "44,42,69,39,55,61,86,40",
+                        "endOffsets": "156,688,758,798,854,916,1003,1044"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/edgeeffectoverride-1.0.2.aar/abc524a6e8aa9a73e0c7e00229f1e947/res/values/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "212",
+                        "endColumns": "60",
+                        "endOffsets": "268"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "60",
+                        "endOffsets": "111"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/library-2.1.3.aar/14febebd5d0601f1e1d9f2f0ee63be7d/res/values/values.xml",
+                    "from": {
+                        "startLines": "3,4,11,18",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "387,432,722,1018",
+                        "endLines": "3,10,17,24",
+                        "endColumns": "44,12,12,12",
+                        "endOffsets": "427,717,1013,1309"
+                    },
+                    "to": {
+                        "startLines": "6,14,21,28",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "605,1049,1339,1635",
+                        "endLines": "6,20,27,34",
+                        "endColumns": "44,12,12,12",
+                        "endOffsets": "645,1334,1630,1926"
+                    }
+                }
+            ]
+        }
+    ]
+}
