@@ -62,43 +62,43 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 33);
+/******/ 	return __webpack_require__(__webpack_require__.s = 68);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 33:
+/***/ 68:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _index = __webpack_require__(34);
+var _MainPage = __webpack_require__(69);
 
-var _index2 = _interopRequireDefault(_index);
+var _MainPage2 = _interopRequireDefault(_MainPage);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-_index2.default.el = '#root';
-new Vue(_index2.default);
+_MainPage2.default.el = '#root';
+new Vue(_MainPage2.default);
 
 /***/ }),
 
-/***/ 34:
+/***/ 69:
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* styles */
-__vue_styles__.push(__webpack_require__(35)
+__vue_styles__.push(__webpack_require__(70)
 )
 
 /* script */
-__vue_exports__ = __webpack_require__(36)
+__vue_exports__ = __webpack_require__(71)
 
 /* template */
-var __vue_template__ = __webpack_require__(37)
+var __vue_template__ = __webpack_require__(72)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -110,10 +110,10 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/apple/awesome-app/src/index.vue"
+__vue_options__.__file = "/Users/apple/awesome-app/src/MainPage.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-2964abc9"
+__vue_options__._scopeId = "data-v-79c79e3e"
 __vue_options__.style = __vue_options__.style || {}
 __vue_styles__.forEach(function (module) {
   for (var name in module) {
@@ -129,48 +129,41 @@ module.exports = __vue_exports__
 
 /***/ }),
 
-/***/ 35:
+/***/ 70:
 /***/ (function(module, exports) {
 
 module.exports = {
-  "introduce": {
-    "marginTop": "25",
-    "marginLeft": "25",
-    "marginRight": "25",
-    "justifyContent": "center",
-    "alignItems": "center",
-    "height": "1000",
-    "width": "700",
-    "backgroundColor": "rgba(162,217,192,0.2)"
-  },
-  "introduce_content": {
-    "color": "#41B883",
-    "textAlign": "center"
-  },
-  "btn_div": {
-    "justifyContent": "center",
-    "alignItems": "center",
-    "marginTop": "60",
-    "borderWidth": "2",
-    "borderStyle": "solid",
-    "borderColor": "#DDDDDD",
-    "width": "200",
-    "height": "100",
-    "backgroundColor": "#F5F5F5"
-  },
-  "btn": {
+  "banner": {
+    "width": "750",
+    "paddingTop": "25",
+    "paddingRight": "25",
+    "paddingBottom": "25",
+    "paddingLeft": "25",
     "fontSize": "50",
     "textAlign": "center",
-    "color": "rgba(75,75,75,0.65)"
+    "fontWeight": "bold",
+    "color": "#41B883",
+    "backgroundColor": "rgb(162,217,192)"
   },
-  "div_father": {
-    "alignItems": "center"
+  "cell_div": {
+    "justifyContent": "center",
+    "alignItems": "center",
+    "width": "750",
+    "height": "200",
+    "backgroundColor": "rgba(162,217,192,0.2)",
+    "top": "20"
+  },
+  "cell_div_text": {
+    "fontSize": "30"
+  },
+  "Main_div": {
+    "borderColor": "#dddddd"
   }
 }
 
 /***/ }),
 
-/***/ 36:
+/***/ 71:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -191,52 +184,72 @@ Object.defineProperty(exports, "__esModule", {
 //
 //
 //
+//
+//
 
-var dom = weex.requireModule('dom');
+var modal = weex.requireModule('modal');
 var navigator = weex.requireModule('navigator');
 exports.default = {
-    name: 'App',
     data: function data() {
+
         return {
-            introduceContent: '没什么特殊功能，全是weex基础，写这个就是为了把weex基础打扎实，目前还有部分未写完'
+            jump: ["a", 'div', 'image', 'indicator', 'input', 'list', '标签', '标签', '标签'],
+            link: ['local://file://assets/dist/a.js', 'local://file://assets/dist/div.js', 'local://file://assets/dist/image.js', 'local://file://assets/dist/indicator.js', 'local://file://assets/dist/input.js', 'local://file://assets/dist/list.js'
+            //                    'http://192.168.100.70:8081/dist/a.js'
+            ]
         };
     },
     methods: {
-        Intents: function Intents(event) {
+        item: function item(index) {
             navigator.push({
-                url: 'MainPage.js',
+                url: this.link[index],
                 animated: "true"
             }, function (event) {});
+        },
+        onappear: function onappear() {
+            modal.toast({ message: '列表使用:list', duration: 0.3 });
         }
-    },
-    mounted: function mounted() {
-        //获取手机宽高
-        //      this.heightLength = this.$getConfig().env.deviceHeight;
-        //      this.widthLength = this.$getConfig().env.deviceWidth;
     }
 };
 
 /***/ }),
 
-/***/ 37:
+/***/ 72:
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: ["div_father"]
-  }, [_c('div', {
-    staticClass: ["introduce"]
-  }, [_c('text', {
-    staticClass: ["introduce_content"]
-  }, [_vm._v(_vm._s(_vm.introduceContent))])]), _c('div', {
-    staticClass: ["btn_div"]
-  }, [_c('a', {
-    staticClass: ["btn"],
-    on: {
-      "click": _vm.Intents
+    staticClass: ["Main_div"]
+  }, [_c('list', {
+    staticClass: ["list"]
+  }, [_vm._m(0), _vm._l((_vm.jump), function(name, index) {
+    return _c('cell', {
+      appendAsTree: true,
+      attrs: {
+        "append": "tree"
+      }
+    }, [_c('div', {
+      staticClass: ["cell_div"],
+      on: {
+        "click": function($event) {
+          _vm.item(index)
+        },
+        "appear": _vm.onappear
+      }
+    }, [_c('text', {
+      staticClass: ["cell_div_text"]
+    }, [_vm._v(_vm._s(name))])])])
+  })], 2)])
+},staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
+  return _c('header', {
+    appendAsTree: true,
+    attrs: {
+      "append": "tree"
     }
-  }, [_vm._v("下一步")])])])
-},staticRenderFns: []}
+  }, [_c('text', {
+    staticClass: ["banner"]
+  }, [_vm._v("测试用例")])])
+}]}
 module.exports.render._withStripped = true
 
 /***/ })

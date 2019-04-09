@@ -21,7 +21,7 @@ import java.util.Map;
 public class WeexEmptyActivity extends AppCompatActivity implements IWXRenderListener {
     private WXSDKInstance mWXSDKInstance;
     private FrameLayout mContainer;
-
+    private Uri mUri;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,8 +30,8 @@ public class WeexEmptyActivity extends AppCompatActivity implements IWXRenderLis
         mWXSDKInstance.registerRenderListener(this);
 
         Intent intent = getIntent();
-
-        loadPage(intent);
+        mUri = getIntent().getData();
+        loadPage(intent,mUri);
     }
 
     /**
@@ -42,24 +42,32 @@ public class WeexEmptyActivity extends AppCompatActivity implements IWXRenderLis
      *
      * @param intent 获取url
      */
-    public void loadPage(Intent intent) {
-        String url = intent.getStringExtra("URL");
-
-        if (TextUtils.isEmpty(url)) {
-            return;
+    public void loadPage(Intent intent,Uri uri) {
+        boolean flag = true;
+        String intentUrl = intent.getStringExtra("URL");
+        String Uriurl = "";
+        String url = "";
+        if (uri != null) {
+            Uriurl = uri.toString().replace("http:/","");
+            flag = false;
         }
-
+        if (!TextUtils.isEmpty(intentUrl)) {
+            url = intentUrl;
+        }
+        if (!TextUtils.isEmpty(Uriurl)) {
+            url = Uriurl;
+        }
         Map<String, Object> options = new HashMap<>();
         options.put(WXSDKInstance.BUNDLE_URL, url);
 
         //本地加载
-        if (url.endsWith("js") && !url.startsWith("http")) {
-            mWXSDKInstance.render("YQ", WXFileUtils.loadAsset(url, this), options, null, WXRenderStrategy.APPEND_ASYNC);
-        }
+//        if (url.endsWith("js") && !url.startsWith("http")) {
+            mWXSDKInstance.render("YQ", flag ? WXFileUtils.loadAsset(url, this) :WXFileUtils.loadAsset(url, this) , options, null, WXRenderStrategy.APPEND_ASYNC);
+//        }
         //网络加载
-        if (url.startsWith("http")  && url.endsWith("js")) {
-            mWXSDKInstance.renderByUrl("YQ", url, options, null, WXRenderStrategy.APPEND_ONCE);
-        }
+//        if (url.startsWith("http")  && url.endsWith("js")) {
+//            mWXSDKInstance.renderByUrl("YQ", url, options, null, WXRenderStrategy.APPEND_ONCE);
+//        }
     }
 
     @Override

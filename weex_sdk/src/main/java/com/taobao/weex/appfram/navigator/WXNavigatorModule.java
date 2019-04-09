@@ -49,7 +49,7 @@ public class WXNavigatorModule extends WXModule {
 
     private final static String INSTANCE_ID = "instanceId";
     private final static String TAG = "Navigator";
-    private final static String WEEX = "com.fivelakes.app.merchant.android.android.intent.category.WEEX";
+    private final static String WEEX = "com.yunqiao_weex.android.intent.category.WEEX";
     private final static String URL = "url";
 
     @JSMethod(uiThread = true)
