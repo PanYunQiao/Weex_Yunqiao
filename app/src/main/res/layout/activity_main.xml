@@ -5,19 +5,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/man_activity_bg"
     tools:context="com.example.apple.yunqiao_weex.Activity.MainActivity">
-    <Button
-        android:id="@+id/btn"
-        android:text="加载"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="50dp" />
-    <TextView
-        android:id="@+id/tv"
-        android:text="123"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <com.example.apple.yunqiao_weex.CustomView.CustomAndroidView.CounterView
-        android:layout_width="match_parent"
-        android:layout_height="50dp" />
+        android:layout_height="match_parent">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_weex"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_btn_height"
+                android:background="@color/Transparent_0"
+                android:text="weex"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/btn_Designer"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_btn_height"
+                android:background="@color/Transparent_0"
+                android:text="设计者模式"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_weex" />
+
+            <Button
+                android:id="@+id/btn_custom_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_btn_height"
+                android:background="@color/Transparent_0"
+                android:text="自定义view"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_Designer" />
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
 </LinearLayout>

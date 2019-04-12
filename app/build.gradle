@@ -27,9 +27,9 @@ dependencies {
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    //图片加载框架
+    // 图片加载框架
     implementation 'com.squareup.picasso:picasso:2.5.2'
-    //Weex依赖
+    // Weex依赖
     // weex sdk and fastjson
     implementation 'com.alibaba:fastjson:1.1.46.android'
     //support library dependencies
@@ -37,4 +37,6 @@ dependencies {
     implementation 'com.android.support:support-v4:27.1.1'
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation project(':weex_sdk')
+    // EventBus
+    implementation 'org.greenrobot:eventbus:3.1.1'
 }
