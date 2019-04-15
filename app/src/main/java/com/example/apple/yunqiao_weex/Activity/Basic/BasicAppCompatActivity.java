@@ -1,4 +1,4 @@
-package com.example.apple.yunqiao_weex.Activity;
+package com.example.apple.yunqiao_weex.Activity.Basic;
 
 import android.annotation.TargetApi;
 import android.content.pm.ActivityInfo;

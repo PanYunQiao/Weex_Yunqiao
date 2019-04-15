@@ -1,6 +1,8 @@
-package com.example.apple.yunqiao_weex.Activity;
+package com.example.apple.yunqiao_weex.Activity.Basic;
 
 import android.widget.Toast;
+
+import com.example.apple.yunqiao_weex.Activity.Basic.BasicAppCompatActivity;
 
 /**
  * 姓名    PanJiangHao

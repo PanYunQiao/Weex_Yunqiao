@@ -1,11 +1,9 @@
 package com.example.apple.yunqiao_weex.Activity.Designer.Observer;
 
-import android.os.Bundle;
-import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.example.apple.yunqiao_weex.Activity.BasicYunQiaoActivity;
+import com.example.apple.yunqiao_weex.Activity.Basic.BasicYunQiaoActivity;
 import com.example.apple.yunqiao_weex.R;
 
 import butterknife.BindView;
