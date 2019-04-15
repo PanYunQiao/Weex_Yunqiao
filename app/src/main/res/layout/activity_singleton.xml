@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.yunqiao_weex.Activity.Designer.Singleton.SingletonActivity">
+    <Button
+        android:id="@+id/Hungry"
+        android:text="饿汉模式"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/Lazy"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="懒汉式"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Hungry" />
+
+    <Button
+        android:id="@+id/lock"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="双重检查加锁模式"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Lazy" />
+
+    <Button
+        android:id="@+id/Class"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="类级内部类模式获取单例"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lock" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="获取到到每种单例都由Toast提示出来"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Class" />
+</android.support.constraint.ConstraintLayout>

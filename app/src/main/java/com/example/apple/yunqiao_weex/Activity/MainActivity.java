@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.apple.yunqiao_weex.Activity.Designer.DesignerActivity;
+import com.example.apple.yunqiao_weex.Activity.View.ViewActivity;
 import com.example.apple.yunqiao_weex.R;
 import com.example.apple.yunqiao_weex.Weex.WeexEmptyActivity;
 
@@ -50,8 +52,10 @@ public class MainActivity extends BasicYunQiaoActivity {
                 startActivity(intent);
                 break;
             case R.id.btn_Designer:
+                startActivity(new Intent(this, DesignerActivity.class));
                 break;
             case R.id.btn_custom_view:
+                startActivity(new Intent(MainActivity.this, ViewActivity.class));
                 break;
         }
     }

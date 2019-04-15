@@ -13,6 +13,7 @@
     <application
         android:name=".Application.Application"
         android:allowBackup="true"
+        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
@@ -43,7 +44,10 @@
                 <data android:scheme="wxpage" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activity.Designer.DesignerActivity"></activity>
+        <activity android:name=".Activity.Designer.DesignerActivity" />
+        <activity android:name=".Activity.View.ViewActivity" />
+        <activity android:name=".Activity.Designer.Observer.ObserverActivity" />
+        <activity android:name=".Activity.Designer.Singleton.SingletonActivity"></activity>
     </application>
 
 </manifest>
