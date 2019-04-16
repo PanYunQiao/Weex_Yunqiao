@@ -6,6 +6,7 @@ import android.widget.Button;
 
 import com.example.apple.yunqiao_weex.Activity.Basic.BasicYunQiaoActivity;
 import com.example.apple.yunqiao_weex.Activity.Designer.DesignerActivity;
+import com.example.apple.yunqiao_weex.Activity.MVP.MVPActivity;
 import com.example.apple.yunqiao_weex.Activity.View.ViewActivity;
 import com.example.apple.yunqiao_weex.R;
 import com.example.apple.yunqiao_weex.Weex.WeexEmptyActivity;
@@ -43,7 +44,7 @@ public class MainActivity extends BasicYunQiaoActivity {
 
     }
 
-    @OnClick({R.id.btn_weex, R.id.btn_Designer, R.id.btn_custom_view})
+    @OnClick({R.id.btn_weex, R.id.btn_Designer, R.id.btn_custom_view,R.id.btn_MVP})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btn_weex:
@@ -55,7 +56,10 @@ public class MainActivity extends BasicYunQiaoActivity {
                 startActivity(new Intent(this, DesignerActivity.class));
                 break;
             case R.id.btn_custom_view:
-                startActivity(new Intent(MainActivity.this, ViewActivity.class));
+                startActivity(new Intent(this, ViewActivity.class));
+                break;
+            case R.id.btn_MVP:
+                startActivity(new Intent(this, MVPActivity.class));
                 break;
         }
     }

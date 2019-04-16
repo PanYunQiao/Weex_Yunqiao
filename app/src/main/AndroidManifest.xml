@@ -47,7 +47,8 @@
         <activity android:name=".Activity.Designer.DesignerActivity" />
         <activity android:name=".Activity.View.ViewActivity" />
         <activity android:name=".Activity.Designer.Observer.ObserverActivity" />
-        <activity android:name=".Activity.Designer.Singleton.SingletonActivity"></activity>
+        <activity android:name=".Activity.Designer.Singleton.SingletonActivity" />
+        <activity android:name=".Activity.MVP.MVPActivity"></activity>
     </application>
 
 </manifest>

@@ -47,6 +47,18 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btn_Designer" />
+
+            <Button
+                android:id="@+id/btn_MVP"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_btn_height"
+                android:background="@color/Transparent_0"
+                android:text="MVP"
+                android:textAllCaps="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_custom_view" />
         </android.support.constraint.ConstraintLayout>
     </ScrollView>
 </LinearLayout>
