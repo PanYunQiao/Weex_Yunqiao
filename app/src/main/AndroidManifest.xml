@@ -48,7 +48,10 @@
         <activity android:name=".Activity.View.ViewActivity" />
         <activity android:name=".Activity.Designer.Observer.ObserverActivity" />
         <activity android:name=".Activity.Designer.Singleton.SingletonActivity" />
-        <activity android:name=".Activity.MVP.MVPActivity"></activity>
+        <activity android:name=".Activity.MVP.MVPActivity" />
+        <activity android:name=".Activity.View.ScrollerLayoutActivity" />
+        <activity android:name=".Activity.View.TitleActivity" />
+        <activity android:name=".Activity.View.MyListViewActivity"></activity>
     </application>
 
 </manifest>
