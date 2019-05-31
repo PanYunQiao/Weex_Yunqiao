@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:fitsSystemWindows="true"
-    android:background="@drawable/man_activity_bg"
+    android:background="@drawable/bg2"
     tools:context="com.example.apple.yunqiao_weex.Activity.MainActivity">
     <ScrollView
         android:layout_width="match_parent"

@@ -85,6 +85,7 @@ public class ScrollerLayout extends ViewGroup {
             // 初始化左右边界值
             leftBorder = getChildAt(0).getLeft();
             rightBorder = getChildAt(getChildCount() - 1).getRight();
+            Log.e(TAG, "onLayout: "+leftBorder+"--------"+rightBorder);
         }
     }
 
@@ -128,7 +129,7 @@ public class ScrollerLayout extends ViewGroup {
                     return true;
                 } else if (getScrollX() + getWidth() + scrolledX > rightBorder) {
                     scrollTo(rightBorder - getWidth(), 0);
-                    Log.e(TAG, "onInterceptTouchEvent: "+"---------------"+"滚动3");
+                    Log.e(TAG, "onInterceptTouchEvent: "+"---------------"+"滚动3"+scrolledX);
                     return true;
                 }
                 scrollBy(scrolledX, 0);
@@ -138,6 +139,7 @@ public class ScrollerLayout extends ViewGroup {
                 // 当手指抬起时，根据当前的滚动值来判定应该滚动到哪个子控件的界面
                 int targetIndex = (getScrollX() + getWidth() / 2) / getWidth();
                 int dx = targetIndex * getWidth() - getScrollX();
+                Log.e(TAG, "onTouchEvent: "+targetIndex+"-----"+getScaleX()+"------"+getWidth()+"--------dx"+dx);
                 // 第二步，调用startScroll()方法来初始化滚动数据并刷新界面
                 scroller.startScroll(getScrollX(), 0, dx, 0);
                 invalidate();

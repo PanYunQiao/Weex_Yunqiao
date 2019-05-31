@@ -33,4 +33,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/combination" />
 
+    <Button
+        android:id="@+id/ScrollerIViewPage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_btn_height"
+        android:text="ScrollerIViewPage"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inherit" />
+
 </android.support.constraint.ConstraintLayout>

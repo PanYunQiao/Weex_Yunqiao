@@ -34,7 +34,7 @@ public class ViewActivity extends BasicYunQiaoActivity {
 
     }
 
-    @OnClick({R.id.ScrollerLayout,R.id.combination,R.id.inherit})
+    @OnClick({R.id.ScrollerLayout,R.id.combination,R.id.inherit,R.id.ScrollerIViewPage})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.ScrollerLayout:
@@ -45,6 +45,9 @@ public class ViewActivity extends BasicYunQiaoActivity {
                 break;
             case R.id.inherit:
                 startActivity(new Intent(this,MyListViewActivity.class));
+                break;
+            case R.id.ScrollerIViewPage:
+                startActivity(new Intent(this,ScrollerIViewPageActivity.class));
                 break;
         }
     }

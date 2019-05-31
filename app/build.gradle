@@ -10,6 +10,46 @@ android {
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+//    productFlavors{
+//        wandoujia{
+//            manifestPlaceholders = [UMENG_CHANNEL_VALUE: "wandoujia"]
+//        }
+//        xiaomi{
+//            manifestPlaceholders=[UMENG_CHANNEL_VALUE: "xiaomi"]
+//        }
+//    }
+//    productFlavors.all { flavor ->
+//        flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+//    }
+//    applicationVariants.all { variant ->
+//        variant.outputs.each { output ->
+//            def outputFile = output.outputFile
+//            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+//                def fileName = outputFile.name.replace(".apk", "-${defaultConfig.versionName}.apk")
+//                output.outputFile = new File(outputFile.parent, fileName)
+//            }
+//        }
+//    }
+//    android.applicationVariants.all { variant ->
+//        variant.outputs.all { output ->
+//            variant.productFlavors.each { flavor ->
+//                def project = "cpm"
+//                def separator = "_"
+//                def buildType = variant.variantData.variantConfiguration.buildType.name
+//                def versionName = variant.versionName
+//                def versionCode = variant.versionCode
+//                def date = new Date()
+//                def formattedDate = date.format('yyyyMMdd')
+//
+//                def apkName = project + separator + "v" + versionName + separator + versionCode + separator + buildType + separator + flavor.name + ".apk"
+//                if (buildType == "release") {
+//                    apkName = project + separator + "v" + versionName + separator + versionCode + separator + buildType + separator + flavor.name + separator + formattedDate + ".apk"
+//                }
+//
+//                output.outputFileName = apkName
+//            }
+//        }
+//    }
     buildTypes {
         release {
             minifyEnabled false

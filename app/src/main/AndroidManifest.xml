@@ -51,7 +51,10 @@
         <activity android:name=".Activity.MVP.MVPActivity" />
         <activity android:name=".Activity.View.ScrollerLayoutActivity" />
         <activity android:name=".Activity.View.TitleActivity" />
-        <activity android:name=".Activity.View.MyListViewActivity"></activity>
+        <activity android:name=".Activity.View.MyListViewActivity" />
+        <activity android:name=".Activity.View.ScrollerIViewPageActivity" />
+        <activity android:name=".testActivity" />
+        <activity android:name=".Activity.MVP.MVP2Activity"></activity>
     </application>
 
 </manifest>

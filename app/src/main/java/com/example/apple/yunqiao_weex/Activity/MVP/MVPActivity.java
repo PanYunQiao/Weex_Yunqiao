@@ -70,4 +70,13 @@ public class MVPActivity extends BasicYunQiaoActivity implements TestContract.Vi
     public void updateUI3(String txt) {
         tvContent.setText(txt);
     }
+
+    /**
+     * 防止内存泄露
+     */
+    @Override
+    protected void onDestroy() {
+        httpPresenter.clear();
+        super.onDestroy();
+    }
 }

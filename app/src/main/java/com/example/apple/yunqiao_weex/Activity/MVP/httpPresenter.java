@@ -38,4 +38,8 @@ public class httpPresenter implements TestContract.Presenter {
             }
         });
     }
+
+    protected void clear() {
+        this.View = null;
+    }
 }
