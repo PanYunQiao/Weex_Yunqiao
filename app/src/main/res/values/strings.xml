@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">test</string>
+    <string name="app_name">云桥</string>
+    <string name="facebook_app_id">2301795660085592</string> <string name="fb_login_protocol_scheme">fb2301795660085592</string>
 </resources>
